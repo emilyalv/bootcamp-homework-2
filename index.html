@@ -5,11 +5,14 @@
     <meta charset="UTF-8" />
     <link rel="stylesheet" href="./assets/css/style.css">
     <link rel="stylesheet" href="./assets/css/reset.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">
 
     <title>Portfolio: Emily Dohm</title>
 </head>
 
-<body>
+<body class="container-fluid">
     <header>
         <div>
             <h1>Emily Dohm</h1>
@@ -42,10 +45,10 @@
             <div id="about-me-content">
                 <h2>About Me</h2>
                 <p>Hello! My name is Emily & I’m an aspiring full stack developer.</p>
-                <ul>
-                    <li>4x Salesforce Certified</li>
-                    <li>Experienced using Agile methodology to implement software solutions for a Healthcare & Life Sciences client</li>
-                    <li>Prior experience in marketing automation & HTML email production</li>
+                <ul>      
+                    <li>I’m a certified Salesforce administrator & consultant</li>             
+                    <li>I have experience with Agile Methodology and Software Development Lifecycle processes for the Healthcare & Life Sciences industry</li>
+                    <li>I have prior experience in marketing automation & HTML email production</li>                    
                 </ul>
             </div>
        
@@ -55,18 +58,54 @@
                 <h2>My Work</h2>
             </div>
             <div class="portfolio-img-container">
-                <div>
-                    <a href="https://emilyalv.github.io/bootcamp-homework-1/"><img src="./assets/images/charlie.png" alt="Emily's Application 1" class="portfolio-img"></a>
-                </div>
-                <div>
-                    <a href="https://emilyalv.github.io/bootcamp-homework-1/"><img src="./assets/images/donuts.png"  alt="Emily's Application 2" class="portfolio-img"></a>
-                </div>
-                <div>
-                    <a href="https://emilyalv.github.io/bootcamp-homework-1/"><img src="./assets/images/lake.png" alt="Emily's Application 3" class="portfolio-img"></a>
-                </div>
-                <div>
-                    <a href="https://emilyalv.github.io/bootcamp-homework-1/"><img src="./assets/images/cookies.png" alt="Emily's Application 4" class="portfolio-img"></a>
-                </div>
+                <figure class="figure">
+                    <figcaption class="figure-caption">
+                        <h4>Destressor App</h4> 
+                        </figcaption>
+                    <img src="assets/images/app3.jpg" class="figure-img img-fluid rounded portfolio-img" alt="app icon">  
+                    <figcaption class="figure-caption">
+                        <ul>
+                            <li>
+                                <a class="mylink" href="https://github.com/emilyalv/destressor-app">GitHub Repository</a>
+                            </li>
+                            <li>
+                                <a class="mylink" href="https://emilyalv.github.io/destressor-app/">Application</a>
+                            </li>
+                        </ul>
+                    </figcaption>                 
+                  </figure>
+                  <figure class="figure">
+                    <figcaption class="figure-caption"><h4>Workday Scheduler</h4></figcaption>
+                   <img src="assets/images/app2.jpg" class="figure-img img-fluid rounded portfolio-img" alt="app icon">  
+                   <figcaption class="figure-caption">
+                    <ul>
+                        <li>
+                            <a class="mylink" href="https://github.com/emilyalv/workday-scheduler">GitHub Repository</a>
+                        </li>
+                        <li>
+                            <a class="mylink" href="https://emilyalv.github.io/workday-scheduler/">Application</a>
+                        </li>
+                    </ul>
+                </figcaption>                   
+                  </figure>
+                  <figure class="figure">
+                    <figcaption class="figure-caption"><h4>JavaScript Quiz</h4></figcaption>
+                    <img src="assets/images/app1.jpg" class="figure-img img-fluid rounded portfolio-img" alt="app icon">  
+                    <figcaption class="figure-caption">
+                        <ul>
+                            <li>
+                                <a class="mylink" href="https://github.com/emilyalv/javascript-quiz-1">GitHub Repository</a>
+                            </li>
+                            <li>
+                                <a class="mylink" href="https://emilyalv.github.io/javascript-quiz-1/">Application</a>
+                            </li>
+                        </ul>
+                    </figcaption>                
+                  </figure>
+
+                
+
+                
             </div>
             
         </section>
@@ -74,8 +113,8 @@
           <div>
           <h2>Contact Me</h2>
           <ul>
-            <li>email: <a href="mailto:emilyaalv@gmail.com">emilyaalv@gmail.com </a></li>
-            <li>linkedin: <a href="https://www.linkedin.com/in/emily-alvarado-dohm/">linkedin.com/in/emily-alvarado-dohm</a></li>
+            <li>email: <a class="mylink" href="mailto:emilyaalv@gmail.com">emilyaalv@gmail.com </a></li>
+            <li>linkedin: <a class="mylink" href="https://www.linkedin.com/in/emily-alvarado-dohm/">linkedin.com/in/emily-alvarado-dohm</a></li>
           </ul>
           </div>
       </section>
@@ -85,9 +124,9 @@
 
     <footer>
         
-        <p>
-            thanks for stopping by!
-        </p>
+        <h6>
+            
+        </h6>
     </footer>
 </body>
 

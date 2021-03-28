@@ -9,20 +9,19 @@ body {
     background-color: #d9dcd6;
 }
 
-a {
+.mylink {
     color: #154157;
-    text-decoration: underline aqua;
     font-weight: bold;
 }
 
-a:hover {
-    color: aqua;
-    text-decoration: underline #154157;
+.mylink:hover {
+    color: #007bff;
+    text-decoration: underline #007bff;
 }
 
 p {
     font-size: 16px;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Poppins', sans-serif;
     color:black;
     font-weight: bolder;
     margin-top: 10px;
@@ -31,7 +30,7 @@ p {
 
 li {
     font-size: 16px;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Poppins', sans-serif;
     color: black;
     font-weight: bolder;
  
@@ -42,7 +41,7 @@ li {
 header {
     padding: 20px;
     margin: 0 0 0 0 ; 
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Poppins', sans-serif;
     background-color: #154157;
     color: #ffffff;
     height:100px;
@@ -63,7 +62,7 @@ header nav {
     margin-right: 20px;
     margin-top: -50px;
     float: right;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-size: 20px;
 }
 
@@ -78,16 +77,16 @@ header nav ul li {
 
 nav a {
     text-decoration: none;
-    background-color: #9dfad6 ;
+    background-color:lightgray ;
     font-weight: bold;
-    border: 3px solid #9dfad6;
-    color: #000; 
+    border: 3px solid lightgray;
+    color: #154157; 
     padding: 10px;
 }
 
 nav a:hover {
-    background-color: aqua;
-    color:  #000 ;
+    background-color: lightgray;
+    color:  #007bff ;
 }
 
 
@@ -103,8 +102,8 @@ main section {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #9dfad6;
+    font-family: 'Poppins', sans-serif;
+    background-color: lightgray;
     color: #373b3b;
     
     
@@ -113,11 +112,12 @@ main section {
 main section h2 {
     font-size: 36px;
     color: #000;
-    text-decoration: aqua underline;
+    text-decoration:lightgray underline;
 }
 
 main section div {
     display: flex;
+    
 }
 
 /* About Me */
@@ -127,7 +127,6 @@ main section div {
 
 #about-me ul {
     list-style: circle;
-    padding-top: 20px;
     margin-left: 20px;
 }
 
@@ -146,7 +145,7 @@ main section div {
 
 /* My Work */
 #my-work {
-    height: 400px;
+    height: 500px;
 }
 
 .portfolio-img-container {
@@ -156,17 +155,20 @@ main section div {
     margin-top: 40px;
 }
 
+.portfolio-img-container div {
+    flex-direction: row;
+}
 .portfolio-img-container a:hover img {
-    box-shadow: 8px 8px aqua;
-    border: 2px solid aqua;
+    box-shadow: 8px 8px lightgray;
+    border: 3px solid lightgray
         
 }
 
 .portfolio-img {
     max-height: 200px;
-    border: 3px solid #000;
-    border-radius: 8px;
+    border: 1px solid #000;
 }
+
 
 /* Contact Me */
 #contact-me div {
@@ -184,8 +186,8 @@ footer {
     margin-top: -30px;
     padding: 20px;
     clear: both;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    text-align: left;
 }
 
 footer h2 {
@@ -209,7 +211,7 @@ footer h2 {
         }
 
         header nav {
-            margin-top: 20px;
+            margin-top: 0px;
             width: 100%;
         }
         header nav ul li {
@@ -223,7 +225,7 @@ footer h2 {
         
        /* About Me */
         #about-me {
-            height: 525px; 
+            height: 625px; 
         }
 
         #about-me div {
@@ -249,7 +251,7 @@ footer h2 {
 
         /* My Work */
         #my-work {
-            height: 400px;
+            height: 500px;
         }
 
         .portfolio-img-container {
@@ -261,7 +263,7 @@ footer h2 {
 
 
         .portfolio-img-container img {
-            width: 120px;
+            width: 200px;
             margin: 5px;
         }
 
@@ -270,7 +272,7 @@ footer h2 {
     }
 
  
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 600px) {
         
     /* header & navigation  */
         header {
@@ -286,7 +288,7 @@ footer h2 {
         }
 
         header nav {
-            margin-top: 20px;
+            margin-top: 0px;
             width: 100%;
         }
         header nav ul li {
@@ -300,7 +302,7 @@ footer h2 {
         
        /* About Me */
         #about-me {
-            height: 525px; 
+            height: 700px; 
         }
 
         #about-me div {
@@ -326,7 +328,7 @@ footer h2 {
 
         /* My Work */
         #my-work {
-            height: 400px;
+            height: 1200px;
         }
 
         .portfolio-img-container {
@@ -338,7 +340,7 @@ footer h2 {
 
 
         .portfolio-img-container img {
-            width: 120px;
+            width: 200px;
             margin: 5px;
         }
 
