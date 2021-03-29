@@ -7,9 +7,9 @@ NU Coding Bootcamp Homework 2: Portfolio Project
 </ol>
 
 <h1 id="repository">The Repository</h1>
-The <code>bootcamp-homework-2</code> repository contains HTML & CSS files for a professional portfolio.
+My <code>portfolio</code> repository contains HTML & CSS files for a professional portfolio.
 <h1 id="portfolio-page">Portfolio Page</h1>
-My professional portfolio can be found here: <a href="https://emilyalv.github.io/bootcamp-homework-2/">https://emilyalv.github.io/bootcamp-homework-2/</a>
+My professional portfolio can be found here: <a href="https://emilyalv.github.io/portfolio/">https://emilyalv.github.io/portfolio/</a>
 
 This page was designed to have 3 sections: 
 <ul>
